@@ -1,0 +1,218 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{fc5cb953-2953-4968-83b3-39e3ff951754}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="win32">
+      <UniqueIdentifier>{037a9a02-b906-4cc5-ad98-304acd4e25ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{2d1d0979-58cd-4ab6-b91c-13650158f1fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\common">
+      <UniqueIdentifier>{afc11a0a-116a-43bb-9184-3fc7bca35dc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\common\cjson">
+      <UniqueIdentifier>{e4a81428-2bcb-46b3-a461-bed2dee01be2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\plazz">
+      <UniqueIdentifier>{0313a4ef-0b8a-4eb9-9175-5ac8253be629}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\common\utf8">
+      <UniqueIdentifier>{43bbf779-0b81-4b06-b128-a86ddab28e38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\hash">
+      <UniqueIdentifier>{11cfd7b3-a757-4aec-9dbd-8fc7333b81fc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="SimulatorWin.h" />
+    <ClInclude Include="stdafx.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ide-support\CodeIDESupport.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ide-support\lua_debugger.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ide-support\RuntimeLuaImpl.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\common\DefineGlobal.h">
+      <Filter>Classes\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\common\cjson\fpconv.h">
+      <Filter>Classes\common\cjson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\common\cjson\lua_cjson.h">
+      <Filter>Classes\common\cjson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\common\cjson\lua_extensions.h">
+      <Filter>Classes\common\cjson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\common\cjson\strbuf.h">
+      <Filter>Classes\common\cjson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\common\Integer64.h">
+      <Filter>Classes\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\common\CMD_Data.h">
+      <Filter>Classes\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\plazz\ClientSocket.h">
+      <Filter>Classes\plazz</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\common\StringUtil.h">
+      <Filter>Classes\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\common\utf8\checked.h">
+      <Filter>Classes\common\utf8</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\common\utf8\core.h">
+      <Filter>Classes\common\utf8</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\common\utf8\unchecked.h">
+      <Filter>Classes\common\utf8</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\common\utf8.h">
+      <Filter>Classes\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\plazz\ClientKernel.h">
+      <Filter>Classes\plazz</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\plazz\QPCipher.h">
+      <Filter>Classes\plazz</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\common\MD5.h">
+      <Filter>Classes\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Client.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\common\base64.h">
+      <Filter>Classes\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\common\LuaAssert.h">
+      <Filter>Classes\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\hash\sha1.h">
+      <Filter>Classes\hash</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\hash\hmac.h">
+      <Filter>Classes\hash</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\hash\bcrypt.h">
+      <Filter>Classes\hash</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\hash\BCrypt.hpp">
+      <Filter>Classes\hash</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\hash\crypt.h">
+      <Filter>Classes\hash</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\hash\crypt_blowfish.h">
+      <Filter>Classes\hash</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\hash\crypt_gensalt.h">
+      <Filter>Classes\hash</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\hash\ow-crypt.h">
+      <Filter>Classes\hash</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\FFmpegVideoPlayer.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="SimulatorWin.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ide-support\lua_debugger.c">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ide-support\RuntimeLuaImpl.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\common\cjson\fpconv.c">
+      <Filter>Classes\common\cjson</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\common\cjson\lua_cjson.c">
+      <Filter>Classes\common\cjson</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\common\cjson\lua_extensions.c">
+      <Filter>Classes\common\cjson</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\common\cjson\strbuf.c">
+      <Filter>Classes\common\cjson</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\common\CMD_Data.cpp">
+      <Filter>Classes\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\plazz\ClientSocket.cpp">
+      <Filter>Classes\plazz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\plazz\ClientKernel.cpp">
+      <Filter>Classes\plazz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\plazz\QPCipher.cpp">
+      <Filter>Classes\plazz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\common\MD5.cpp">
+      <Filter>Classes\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Client.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\common\base64.cpp">
+      <Filter>Classes\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\common\LuaAssert.cpp">
+      <Filter>Classes\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\hash\sha1.cpp">
+      <Filter>Classes\hash</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\hash\bcrypt.c">
+      <Filter>Classes\hash</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\hash\crypt_blowfish.c">
+      <Filter>Classes\hash</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\hash\crypt_gensalt.c">
+      <Filter>Classes\hash</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\hash\wrapper.c">
+      <Filter>Classes\hash</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\FFmpegVideoPlayer.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\game.ico" />
+  </ItemGroup>
+</Project>
